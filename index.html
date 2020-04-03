@@ -15,11 +15,11 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="row">
+            <div class="row header__top" >
                 <div class="col-5 font-weight-bold 24px logo">
                     Startup
                 </div>
-                <div class="header__nav col-lg-7 row">
+                <div class="header__nav d-none d-lg-flex row">
                     <nav>
                         <ul class="row">
                             <li><a  href="#">Home</a></li>
@@ -30,12 +30,12 @@
                             <li><a href="#">Clients</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
-                        <div class="header__burger">
-                            <span class="header__line header__line_top"></span>
-                            <span class="header__line header__line_middle"></span>
-                            <span class="header__line header__line_bottom"></span>
-                        </div>
                     </nav>
+                </div>
+                <div class="header__burger">
+                    <span class="header__line header__line_top"></span>
+                    <span class="header__line header__line_middle"></span>
+                    <span class="header__line header__line_bottom"></span>
                 </div>
             </div>
             <div class="text-center text-uppercase header__content">
@@ -48,27 +48,27 @@
     </header>
     <section class="servicies">
         <div class="container">
-            <h2 class="text-center text-uppercase serv_title line">Servicies</h2>
+            <h2 class="text-center text-uppercase serv_title defaultTitle">Servicies</h2>
             <p class="text-center text-uppercase defaultsubtitle"> We offer ipsum dolor sit amet, consetetur sadipscing
                 elitr
                 amet</p>
             <div class="row text-center servicies_items">
                 <div class="col-lg-4 col-md-6 flex-column servicies_item">
-                    <img src="img/fa-font.png" alt="font">
+                   <div> <i class="fa fa-font"></i></div>
                     <h3 class="my-2">Clean Typography</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
                         inventore harum
                         ex magni, dicta impedit. Lorem ipsum.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 flex-column servicies_item">
-                    <img src="img/fa-code.png" alt="code">
+                    <div><i class="fa fa-code"></i></div>
                     <h3 class="my-2">Rock Solid Code</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
                         inventore harum
                         ex magni, dicta impedit. Lorem ipsum.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 flex-column servicies_item">
-                    <img src="img/fa-support.png" alt="support">
+                    <div><i class="fa fa-life-ring"></i></div>
                     <h3 class="my-2">Expert Support</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
                         inventore harum
@@ -79,7 +79,7 @@
     </section>
     <section class="about">
         <div class="container">
-            <h2 class="text-center text-uppercase serv_title line">About us</h2>
+            <h2 class="text-center text-uppercase serv_title defaultTitle">About us</h2>
             <p class="text-center defaultsubtitle"> We offer ipsum dolor sit amet, consetetur sadipscing elitr amet
             </p>
             <div class="about_text row">
@@ -108,17 +108,17 @@
                     Lorem ipsum eat.</p>
             </div>
             <div class="about__photos text-center row">
-                <div class="col-lg-3 col-md-6 about_photo">
+                <div class="col-lg-3 col-md-6 text-center about_photo">
                     <div class="about__photo about__photo_pic">
                         <a href="#" class="img__link"> <img src="img/photo1.png" alt="photo1"></a>
                     </div>
                     <h4>Md. Khalil Uddin</h4>
                     <p>Head of Ideas</p>
                     <div class="about__socials row">
-<a href="#" class="about__social"><i class="fa fa-facebook-f"></i></a>
-<a href="#"  class="about__social"><i class="fa fa-twitter"></i></a>
-<a href="#"  class="about__social"><i class="fa fa-google-plus"></i></a>
-<a href="#"  class="about__social"><i class="fa fa-linkedin"></i></a>
+<a href="#" class="about__social about__social1"><i class="fa fa-facebook-f"></i></a>
+<a href="#"  class="about__social about__social2"><i class="fa fa-twitter"></i></a>
+<a href="#"  class="about__social about__social3"><i class="fa fa-google-plus"></i></a>
+<a href="#"  class="about__social about__social4"><i class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 about_photo">
@@ -127,10 +127,10 @@
                     <h4>Rubel Miah</h4>
                     <p>Lead WordPress Developer</p>
                     <div class="about__socials row">
-                        <a href="#" class="about__social"><i class="fa fa-facebook-f"></i></a>
-                        <a href="#" class="about__social"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="about__social"><i class="fa fa-google-plus"></i></a>
-                        <a href="#" class="about__social"><i class="fa fa-linkedin"></i></a>
+                        <a href="#" class="about__social1"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#" class="about__social2"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="about__social3"><i class="fa fa-google-plus"></i></a>
+                        <a href="#" class="about__social4"><i class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 about_photo">
@@ -139,10 +139,10 @@
                     <h4>Shamim Mia</h4>
                     <p>Sr. Web Developer</p>
                     <div class="about__socials row">
-                        <a href="#" class="about__social"><i class="fa fa-facebook-f"></i></a>
-                        <a href="#" class="about__social"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="about__social"><i class="fa fa-google-plus"></i></a>
-                        <a href="#" class="about__social"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" class="about__social1"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#" class="about__social2"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="about__social3"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="about__social4"><i class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 about_photo">
@@ -151,10 +151,10 @@
                     <h4>John Doe</h4>
                     <p>Front-end Developer</p>
                     <div class="about__socials row">
-                        <a href="#" class="about__social"><i class="fa fa-facebook-f"></i></a>
-                        <a href="#" class="about__social"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="about__social"><i class="fa fa-google-plus"></i></a>
-                        <a href="#" class="about__social"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" class="about__social1"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#" class="about__social2"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="about__social3"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="about__social4"><i class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -162,7 +162,7 @@
     </section>
     <section class="works">
         <div class="container">
-            <h5 class="line text-center text-uppercase">Latest Works</h5>
+            <h4 class="defaultTitle text-center text-uppercase">Latest Works</h4>
             <div class="works__nav col-12 ">
                 <nav>
                     <ul class="row text-center justify-content-center list-unstyled">
@@ -177,30 +177,75 @@
             <div class="row works_foto">
                 <div class="col-lg-4 col-md-6">
        <a> <img src="img/Work1.png" alt="work1"></a>
+       <div class="works__foto__btn text-center">
+           <h5>Hair Dresser</h5>
+           <p>Branding</p>
+           <a href="#" class="btn">View</a>
+       </div>
                 </div>
                  <div class="col-lg-4 col-md-6">
             <a> <img src="img/Work2.png" alt="work2"></a>
+            <div class="works__foto__btn text-center">
+                <h5>Hair Dresser</h5>
+                <p>Branding</p>
+                <a href="#" class="btn">View</a>
+            </div>
                 </div>
                                 <div class="col-lg-4 col-md-6">
                 <a> <img src="img/Work3.png" alt="work3"></a>
+                <div class="works__foto__btn text-center">
+           <h5>Hair Dresser</h5>
+           <p>Branding</p>
+           <a href="#" class="btn">View</a>
+       </div>
                 </div>
                                 <div class="col-lg-4 col-md-6">
                 <a> <img src="img/Work4.png" alt="work4"></a>
+                <div class="works__foto__btn text-center">
+           <h5>Hair Dresser</h5>
+           <p>Branding</p>
+           <a href="#" class="btn">View</a>
+       </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                 <a> <img src="img/Work5.png" alt="work5"></a>
+                <div class="works__foto__btn text-center">
+           <h5>Hair Dresser</h5>
+           <p>Branding</p>
+           <a href="#" class="btn">View</a>
+       </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                 <a> <img src="img/Work6.png" alt="work6"></a>
+                <div class="works__foto__btn text-center">
+           <h5>Hair Dresser</h5>
+           <p>Branding</p>
+           <a href="#" class="btn">View</a>
+       </div>
                 </div>
                  <div class="col-lg-4 col-md-6">
                <a> <img src="img/Work7.png" alt="work7"></a>
+                <div class="works__foto__btn text-center">
+           <h5>Hair Dresser</h5>
+           <p>Branding</p>
+           <a href="#" class="btn">View</a>
+       </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                 <a> <img src="img/Work8.png" alt="work8"></a>
+                <div class="works__foto__btn text-center">
+           <h5>Hair Dresser</h5>
+           <p>Branding</p>
+           <a href="#" class="btn">View</a>
+       </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                 <a> <img src="img/Work9.png" alt="work9"></a>
+                <div class="works__foto__btn text-center">
+           <h5>Hair Dresser</h5>
+           <p>Branding</p>
+           <a href="#" class="btn">View</a>
+       </div>
             </div>
             </div>
         </div>
@@ -214,7 +259,7 @@
     </section>
     <section class="blog">
     <div class="container">
-    <h5 class="line text-center text-uppercase">Recent blog posts</h5>
+    <h5 class="defaultTitle text-center text-uppercase">Recent blog posts</h5>
     <p class="text-center defaultsubtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
     <div class="blog__items">
         <div class="blog__item justify-content-between row">
@@ -229,7 +274,8 @@
 </div>
 <div class="blog__item_text_title1 col-10 text-uppercase">
     <h6>Startup ideas needs to be funded</h6>
-    <p>By Khalil Uddin in Development</p>
+    <p> <span>
+        By </span> Khalil <span>Uddin in</span> Development</p>
 </div>
 </div>
 <div class="blog__item_text1 text-break">
@@ -277,15 +323,15 @@
 </section>
 <section class="testimonials__logo">
     <div class="container">
-        <div class="logos">
-            <img src="img/Logo1.png" alt="logo1">
-            <img src="img/Logo2.png" alt="logo2">
-            <img src="img/Logo3.png" alt="logo3">
-            <img src="img/Logo4.png" alt="logo4">
-            <img src="img/Logo5.png" alt="logo5">
+        <div class="  row justify-content-center">
+            <img class="col-lg offset-2 m-auto justify-content-center align-items-center" src="img/Logo1.png" alt="logo1">
+            <img class="col-lg offset-2 col-md-2 m-auto justify-content-center align-items-center" src="img/Logo2.png" alt="logo2">
+            <img class="col-lg offset-2 col-md-2 m-auto justify-content-center align-items-center" src="img/Logo3.png" alt="logo3">
+            <img class="col-lg offset-2 col-md-2 m-auto justify-content-center align-items-center" src="img/Logo4.png" alt="logo4">
+            <img class="col-lg offset-2 col-md-2 m-auto justify-content-center align-items-center" src="img/Logo5.png" alt="logo5">
         </div>
         <div class="logo__text text-center">
-            <p class="logo__text_quote">Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut
+            <p class="logo__text_quote text-center">Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut
             officiis debitis aut rerum”</p>
             <p>John Doe, Google Inc.</p>
             <div class="logo__dots" >
@@ -296,7 +342,7 @@
 </section>
 <section class="form">
     <div class="container">
-            <h6 class="text-center text-uppercase line">Get in touch</h6>
+            <h6 class="text-center text-uppercase defaultTitle">Get in touch</h6>
             <p class="text-center defaultsubtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
             <div class="form__touch row ">
             <div class="form__adress col-lg-4">
@@ -349,7 +395,7 @@
 </section>
 <footer class="footer">
     <div class="container">
-        <div class="footer__socials line text-center">
+        <div class="footer__socials defaultTitle text-center">
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
