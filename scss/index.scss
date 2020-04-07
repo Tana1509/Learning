@@ -157,7 +157,6 @@ section {
     }
   }
 }
-
 .servicies {
   h2 {
     @include defaultTitle;
@@ -266,9 +265,6 @@ section {
   }
   .works__nav {
     a {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       margin-right: 30px;
       transition: 0.3s;
       font-size: 16px;
@@ -286,14 +282,18 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: calc(100% / 3);
     .works__foto {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       max-width: 360px;
       max-height: 320px;
       width: 100%;
       height: 100%;
       overflow: hidden;
       position: relative;
-      margin-bottom: 15px;
+      margin-bottom: 30px;
       img {
         object-position: left;
       }
@@ -516,11 +516,10 @@ section {
       padding: 20px 0px;
       margin-bottom: 20px;
       &:focus {
-          outline-color: #c0301c;
-        }
+        outline-color: #c0301c;
+      }
       &:not(:last-child) {
         margin-right: 30px;
-        
       }
     }
   }
@@ -597,9 +596,9 @@ section {
         background: #797070;
         border-radius: 30%;
       }
-    &:not(:last-child) {
-      margin-right: 15px;
-    }
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
     }
   }
 
